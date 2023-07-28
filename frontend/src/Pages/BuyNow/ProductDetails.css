@@ -1,0 +1,74 @@
+
+/* Laptop */
+@media only screen and (min-width: 600px) {
+    .flex{
+        display: flex;
+    
+    }
+    .left-side{
+        width: 30%;
+        height: 100vh;
+    }
+    .right-side{
+        width: 70%;
+        height: 100vh;
+    }
+    .image{
+        max-height: 70%;
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+    .buynow-btn{
+        position: relative;
+        top: 4vh;
+        left: 35%;
+    }
+    
+    /* rs */
+    .item-title{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    
+    .item-title h4{
+        margin-top: 2%;
+    }
+    
+    hr{
+        width: 90%;
+        background-color: black;
+        border-width: 50px;
+        width: 90%;
+    }
+    hr:not([size]) {
+        height: 10px;
+    }
+}
+/* SmartPhone */
+@media only screen and (max-width: 600px) {
+    .flex{
+        display: inline-block;
+    }
+    .image{
+        padding: 7%;
+        height: 80vh;
+    }
+    .buynow-btn{
+        display: none;
+    }
+    .right-side{
+        padding: 7%;
+    }
+    .accordion-button{
+        z-index: 0;
+    }
+}
+
+.bgc{
+    background-color: rgb(79, 76, 76);
+}
+
+.bgc:hover{
+    background-color: rgb(50, 50, 50);
+}

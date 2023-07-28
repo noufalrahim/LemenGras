@@ -1,0 +1,63 @@
+/* LAPTOP SCREEN */
+
+
+@media only screen and (min-width: 600px) {    
+    body{
+        overflow-x: hidden;
+    }
+    /* Navbar */
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar-brand {
+        color: white;
+    }
+
+    .nav-text {
+        color: white;
+    }
+
+
+    /* Card */
+    .card {
+        width: 18rem;
+    }
+
+    .row {
+        padding: 2%;
+        height: 100px;
+    }
+
+    /* Accordion */
+    .accordion-item {
+        width: 90%;
+    }
+
+    .accordion {
+        margin-top: 10%;
+    }
+    /* User Details */
+    .invalid-text{
+        color: red;
+    }
+    
+
+}
+
+/* MOBILE SCREEN */
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        background-color: black;
+        width: 500px;
+    }
+    .nav-text{
+        color: white;
+    }
+    .navbar-toggler{
+        background-color: white;
+    }
+}
+
+

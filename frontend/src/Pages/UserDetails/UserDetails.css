@@ -1,0 +1,16 @@
+.b-009{
+    font-size: 30px;
+    margin-top: 2%;
+}
+
+.invalid-text{
+    color: red;
+}
+
+.itr{
+    color: rgb(75, 75, 75);
+}
+
+#modelbtn{
+    display: none;
+}

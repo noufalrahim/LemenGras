@@ -1,0 +1,26 @@
+@media only screen and (min-width: 600px) {
+    .footer{
+        display: none;
+    
+    }
+}
+
+/* Smart Phone */
+@media only screen and (max-width: 600px) {
+    .footer{
+        background-color: white;
+        height: 10vh;
+        width: 100%;
+        position: fixed;
+        top: 92%;
+        z-index: 10;
+    
+    }
+    .footer-btn{
+        width: 50%;
+        height: 10vh;
+        color: white;
+        background-color: black;
+    }
+    
+}

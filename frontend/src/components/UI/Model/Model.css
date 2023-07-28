@@ -1,0 +1,20 @@
+.md-bg{
+    background-color: rgb(93, 0, 0);
+    color: white;
+}
+
+.close-text{
+    color: black;
+}
+
+.close-text:hover{
+    background-color: rgb(93, 0, 0);
+}
+
+.cl-bt{
+    color: white;
+}
+
+.cl-bt:hover{
+    color: white;
+}
